@@ -76,9 +76,9 @@ onClick用于接收用户是否点击的信息，然后里面的的\<i> 会根�
 
 ```
 <div className='menu-icon' onClick={handleClick}>
-                        {/* a toggle */}
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                    </div>
+    {/* a toggle */}
+    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+</div>
 ```
 
 
@@ -196,10 +196,10 @@ function Home () {
 ```
 eg:
 <CardItem
-        src='images/img-2.jpg'
-        text='Travel through the Islands of Bali in a Private Cruise'
-        label='Luxury'
-        path='/services'
+    src='images/img-2.jpg'
+    text='Travel through the Islands of Bali in a Private Cruise'
+    label='Luxury'
+    path='/services'
 />
 
 ```
